@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int arr[] = {5, 10, 15, 20, 25};
+    int arr[] = {4, 2, 7, 1, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
     int sum = 0;
 
@@ -12,10 +12,7 @@ int main() {
         sum += arr[i];
     }
 
-    // Menghitung rata-rata
-    double average = (double)sum / n;
-
-    cout << "Rata-rata: " << average << endl;
+    cout << "Jumlah elemen: " << sum << endl;
 
     return 0;
 }
